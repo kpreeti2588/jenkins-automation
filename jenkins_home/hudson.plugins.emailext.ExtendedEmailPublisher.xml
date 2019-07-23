@@ -2,7 +2,7 @@
 <hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.57.2">
   <defaultSuffix>@io-media.com</defaultSuffix>
   <smtpAuthUsername>AKIAJJZQJWCYPTXY3BSQ</smtpAuthUsername>
-  <smtpAuthPassword>AtQu2DsC1/q6xGP5C2+EJZLw5ahc1Av+o9qJd/5LG6+A</smtpAuthPassword>
+  <smtpAuthPassword>{AQAAABAAAAAwbN0ZhHIx/Rx8MrlnoVwYKSp3MukSkFU8b07uPahVtQbqO5GFG5kiuDLt2+ofOPieug/2vxa3sm2DMp2bfMsK0Q==}</smtpAuthPassword>
   <smtpHost>email-smtp.us-east-1.amazonaws.com</smtpHost>
   <useSsl>true</useSsl>
   <smtpPort>465</smtpPort>

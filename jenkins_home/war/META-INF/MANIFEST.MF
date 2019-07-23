@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Hudson-Version: 1.395
 Remoting-Minimum-Supported-Version: 2.60
-Implementation-Version: 2.107.3
+Implementation-Version: 2.107.2
 Built-By: kohsuke
 Remoting-Embedded-Version: 3.17
-Jenkins-Version: 2.107.3
+Jenkins-Version: 2.107.2
 Created-By: Apache Maven 3.3.9
 Build-Jdk: 1.8.0_144
 Main-Class: Main

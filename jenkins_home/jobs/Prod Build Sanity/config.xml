@@ -273,6 +273,17 @@ classes</description>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
+    <hudson.plugins.throttleconcurrents.ThrottleJobProperty plugin="throttle-concurrents@2.0.1">
+      <maxConcurrentPerNode>10</maxConcurrentPerNode>
+      <maxConcurrentTotal>10</maxConcurrentTotal>
+      <categories class="java.util.concurrent.CopyOnWriteArrayList">
+        <string>jenkins</string>
+      </categories>
+      <throttleEnabled>true</throttleEnabled>
+      <throttleOption>category</throttleOption>
+      <limitOneJobWithMatchingParams>false</limitOneJobWithMatchingParams>
+      <paramsToUseForLimit></paramsToUseForLimit>
+    </hudson.plugins.throttleconcurrents.ThrottleJobProperty>
   </properties>
   <scm class="hudson.plugins.git.GitSCM" plugin="git@3.3.0">
     <configVersion>2</configVersion>
@@ -323,7 +334,7 @@ classes</description>
   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
   <reporters>
     <hudson.maven.reporters.MavenMailer>
-      <recipients>nam-automation@livenation.com,preeti.kumari@ticketmaster.com</recipients>
+      <recipients>nam-automation@livenation.com</recipients>
       <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
       <sendToIndividuals>false</sendToIndividuals>
       <perModuleEmail>false</perModuleEmail>
@@ -331,7 +342,7 @@ classes</description>
   </reporters>
   <publishers>
     <hudson.plugins.emailext.ExtendedEmailPublisher plugin="email-ext@2.57.2">
-      <recipientList>nam-automation@livenation.com,preeti.kumari@ticketmaster.com</recipientList>
+      <recipientList>nam-automation@livenation.com</recipientList>
       <configuredTriggers>
         <hudson.plugins.emailext.plugins.trigger.AlwaysTrigger>
           <email>
@@ -356,7 +367,7 @@ classes</description>
       <postsendScript>$DEFAULT_POSTSEND_SCRIPT</postsendScript>
       <attachBuildLog>true</attachBuildLog>
       <compressBuildLog>true</compressBuildLog>
-      <replyTo>nam-automation@livenation.com,preeti.kumari@ticketmaster.com</replyTo>
+      <replyTo>nam-automation@livenation.com</replyTo>
       <saveOutput>false</saveOutput>
       <disabled>false</disabled>
     </hudson.plugins.emailext.ExtendedEmailPublisher>

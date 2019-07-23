@@ -153,7 +153,9 @@
 			                <mailpassword>${mail.password}</mailpassword>
 			                <from>qa-automation@io-media.com</from>
 			                <receivers>
-			                    <receiver>nam-automation@livenation.com</receiver>
+			                    <receiver>akshat.mishra@ticketmaster.com</receiver>
+			                    <receiver>jitendra.roy@ticketmaster.com</receiver>
+			                    <receiver>preeti.kumari@ticketmaster.com</receiver>
 			                </receivers>
 			                <subject>Automation framework new build version : ${project.version}</subject>
 			                <failonerror>false</failonerror>

@@ -43,14 +43,14 @@
       <timestamp0>1526033668174</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.13">
-      <timestamp>1527678833437</timestamp>
+      <timestamp>1562062835627</timestamp>
       <itemFullName>TakeScreenshot</itemFullName>
-      <timestamp0>1527669963929</timestamp0>
+      <timestamp0>1562062348855</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.13">
-      <timestamp>1530882735464</timestamp>
+      <timestamp>1562062871371</timestamp>
       <itemFullName>Prod Build Sanity</itemFullName>
-      <timestamp0>1530881441875</timestamp0>
+      <timestamp0>1562062309755</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
   </facets>
 </fingerprint>
